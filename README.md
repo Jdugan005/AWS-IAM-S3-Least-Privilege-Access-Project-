@@ -38,6 +38,7 @@ Screenshot:
 
 Results
 The least‑privilege model worked as expected. Users were able to perform only the actions defined in their policies, and attempts to access unauthorized services or operations were denied.
+
 Key Takeaways
 Least‑privilege access reduces risk and limits the impact of compromised credentials
 Permissions boundaries add an extra layer of control
