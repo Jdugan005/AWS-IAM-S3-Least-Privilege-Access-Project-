@@ -14,27 +14,28 @@ All screenshots are stored in the screenshots folder.
 1. IAM User Setup
 Created an IAM user (dev-user) with console access.
 Screenshot:
-![dev-user](screenshots/Screenshot%202026-06-02%20134802.png)
+![dev-user](screenshots/_dev_UserPage.png)
 
 2. Group Assignment
 Added the user to DeveloperGroup, which contains the custom S3 read‑only policy.
 Screenshot:
-![group-membership](screenshots/Screenshot%202026-06-02%20134926.png)
+![group-membership](screenshots/def_user_bucker.png)
 
 3. Custom S3 Read‑Only Policy
 Created a policy that allows the user to list buckets and read objects only from jack-secure-bucket.
 Screenshot:
-![policy](screenshots/Screenshot%202026-06-02%20135010.png)
+![policy](screenshots/bucket_rule.png)
 
 4. S3 Bucket Setup
 Created a secure S3 bucket named jack-secure-bucket for testing.
 Screenshot:
-![bucket](screenshots/Screenshot%202026-06-02%20135336.png)
+![bucket](screenshots/S3_Bucket.png)
 
-5. MFA Enforcement
+
+6. MFA Enforcement
 Enabled MFA on the IAM user to follow AWS security best practices.
 Screenshot:
-![mfa](screenshots/Screenshot%202026-06-02%20135535.png)
+![mfa](screenshots/dev_user_2fa.png)
 
 Results
 The least‑privilege model worked as expected. Users were able to perform only the actions defined in their policies, and attempts to access unauthorized services or operations were denied.
