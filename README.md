@@ -11,30 +11,24 @@ Testing allowed and denied actions
 Screenshots documenting each step
 All screenshots are stored in the screenshots folder.
 
-1. IAM User Setup
-Created an IAM user (dev-user) with console access.
-Screenshot:
-![dev-user](screenshots/_dev_UserPage.png)
+1. IAM User Setup  
+Created an IAM user (dev-user) with console access.  
+![dev-user](screenshots/Dev_UserPage.png)
 
-2. Group Assignment
-Added the user to DeveloperGroup, which contains the custom S3 read‑only policy.
-Screenshot:
-![group-membership](screenshots/def_user_bucker.png)
+2. Group Assignment  
+Added the user to DeveloperGroup, which contains the custom S3 read-only policy.  
+![group-membership](screenshots/dev_user_bucket.png)
 
-3. Custom S3 Read‑Only Policy
-Created a policy that allows the user to list buckets and read objects only from jack-secure-bucket.
-Screenshot:
+3. Custom S3 Read-Only Policy  
+Created a policy that allows the user to list buckets and read objects only from jack-secure-bucket.  
 ![policy](screenshots/bucket_rule.png)
 
-4. S3 Bucket Setup
-Created a secure S3 bucket named jack-secure-bucket for testing.
-Screenshot:
+4. S3 Bucket Setup  
+Created a secure S3 bucket named jack-secure-bucket for testing.  
 ![bucket](screenshots/S3_Bucket.png)
 
-
-6. MFA Enforcement
-Enabled MFA on the IAM user to follow AWS security best practices.
-Screenshot:
+5. MFA Enforcement  
+Enabled MFA on the IAM user to follow AWS security best practices.  
 ![mfa](screenshots/dev_user_2fa.png)
 
 Results
